@@ -6,6 +6,7 @@ module.exports = async function({getNamedAccounts, deployments}){
     const {deploy, log} = deployments;
     const {deployer} = await getNamedAccounts()
 
+
     const chainId = network.config.chainId
 
     const VRF_SUB_FUND_AMOUNT = ethers.utils.parseEther("20")
