@@ -138,6 +138,8 @@ const { assert, expect } = require("chai")
 
                   // upkeepNeeded = (timePassed && isOpen && hasBalance && hasPlayers)
 
+                  console.log(upkeepNeeded)
+
                   assert(upkeepNeeded)
               })
           })

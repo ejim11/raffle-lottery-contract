@@ -20,7 +20,7 @@ module.exports = {
             blockConfimations: 1,
         },
         sepolia: {
-            chainId: 1115511,
+            chainId: 11155111,
             blockConfimations: 6,
             url: SEPOLIA_URL,
             accounts: [SEPOLIA_PRIVATE_KEY],
@@ -39,6 +39,7 @@ module.exports = {
         apiKey: {
             sepolia: ETHERSCAN_API_KEY,
         },
+        customChains: [],
     },
     gasReporter: {
         enabled: true,
