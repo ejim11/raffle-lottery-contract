@@ -22,8 +22,6 @@ developmentChains.includes(network.name)
 
                   const accounts = await ethers.getSigners()
 
-                  let gasCost
-
                   await new Promise(async (resolve, reject) => {
                       raffle.once("WinnerPicked", async () => {
                           try {
